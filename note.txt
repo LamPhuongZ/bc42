@@ -18,3 +18,7 @@ git push -u origin master: khi chậy lần đầu
 git push: đẩy tất cả commit lên trên remote repository
 
 git clone; tải remote repository về máy tính
+
+git checkout: chuyển sang 1 brand khác
+ + git checkout brand-name: chuyển brand
+ + git checkout -b brand-name: tạo mới brand

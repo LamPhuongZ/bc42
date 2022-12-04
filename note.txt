@@ -16,3 +16,5 @@ git status: xem trạng thái hiện tại của file làm việc, nó sẽ hi�
 
 git push -u origin master: khi chậy lần đầu
 git push: đẩy tất cả commit lên trên remote repository
+
+git clone; tải remote repository về máy tính

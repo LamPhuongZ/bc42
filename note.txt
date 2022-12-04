@@ -6,3 +6,5 @@ git add: sắp xếp các file bị thay đổi, thêm mới, xóa so với lầ
 
 git commit: dùng để xác nhận và lưu trữ các file đã thay đổi
  + git commit -m "massage commit"
+
+git log: xem lịch sử commit

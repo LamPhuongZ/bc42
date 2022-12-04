@@ -19,6 +19,20 @@ git push: đẩy tất cả commit lên trên remote repository
 
 git clone; tải remote repository về máy tính
 
-git checkout: chuyển sang 1 brand khác
- + git checkout brand-name: chuyển brand
- + git checkout -b brand-name: tạo mới brand
+git checkout: chuyển sang 1 branch khác
+ + git checkout branch-name: chuyển branch
+ + git checkout -b branch-name: tạo mới branch
+
+git pull: kéo tất cả commit mới nhất từ remote repository về local repository của 1 branch nào đó
+
+git merge: hợp nhất những commit ở 1 branch vào 1 branch khác
+ + VD: branch hiện tại là feature-a, ta chạy lệnh git merge master => hợp nhất những commit của branch master vào franch feature-a
+
+*Qui trình xử lý nếu bị conflict (feature-a tạo pull request vào master)
+B1: checkout về branch master
+B2: chạy lệnh git pull để cập nhật những commit mới nhất cho master ở local
+B3: checkout ngược về feature-a
+B4: chạy git meger master để hợp nhật những commit của master vào feature-a
+B5: resolve conflict (thực hiện ở VSCODE)
+B6: git add, git commit, git push
+B7: quay lại Github để tạo pull request

@@ -1,3 +1,6 @@
+git config --global user.name "Your name"
+git config --global user.email "Your email"
+
 git init: khởi tạo git cho 1 project ̣(chỉ cần chạy 1 lần duy nhất)
 
 git add: sắp xếp các file bị thay đổi, thêm mới, xóa so với lần commit trước đó, để chuẩn bị cho lần commit tiếp theo
@@ -9,4 +12,4 @@ git commit: dùng để xác nhận và lưu trữ các file đã thay đổi
 
 git log: xem lịch sử commit
 
-git status: xem trạng thái hiện tại của file làm việc, nó sẽ hiện thị những thay đổi so với lần commit trước đó. Đồng thời hiển thị trjang thái của các file đó như là đã được xác nhận đã commit hay chưa
+git status: xem trạng thái hiện tại của file làm việc, nó sẽ hiện thị những thay đổi so với lần commit trước đó. Đồng thời hiển thị trjang thái của các file đó như là đã được xác nhận đã commit hay chưa.
